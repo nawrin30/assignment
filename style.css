@@ -308,6 +308,34 @@ body {
 .pricing-card.featured .price {
     color: #ffffff;
 }
+.per-person {
+    display: block;
+    font-size: 13.6px;
+    color: #64748b;
+    margin-top: 6px;
+}
+
+.pricing-card.featured .per-person {
+    color: #94a3b8;
+}
+
+
+.pricing-card ul {
+    margin-bottom: 35px;
+    flex-grow: 1;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.pricing-card ul li {
+    font-size: 15.2px;
+    color: #334155;
+    margin-bottom: 12px;
+}
+
+.pricing-card.featured ul li {
+    color: #cbd5e1;
+}
 
 
 
