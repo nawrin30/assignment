@@ -340,4 +340,35 @@ body {
 
 
 
+.sponsors-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.sponsors-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    max-width: 900px;
+    margin: 40px auto 0;
+    flex-wrap: wrap;
+}
+
+.sponsor-logo {
+    font-size: 15.2px;
+    font-weight: 700;
+    color: #94a3b8;
+    letter-spacing: -0.5px;
+    transition: color 0.3s ease;
+}
+
+.sponsor-logo:hover {
+    color: #475569; 
+}
+
+
+
+
 
