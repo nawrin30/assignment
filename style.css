@@ -237,6 +237,19 @@ body {
 .track-label.frontend { color: #d97706; }
 .track-label.security { color: #7c3aed; }
 
+.speaker-info h3 {
+    font-size: 18px;
+    color: #0f172a;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.speaker-info p {
+    color: #64748b;
+    font-size: 15.2px;
+}
+
+
 
 
 
