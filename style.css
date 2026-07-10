@@ -249,6 +249,19 @@ body {
     font-size: 15.2px;
 }
 
+.pricing-section {
+    padding: 80px 20px;
+    background-color: #f8fafc;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: stretch;
+}
 
 
 
