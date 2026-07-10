@@ -272,6 +272,42 @@ body {
     flex-direction: column;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
+.pricing-card.featured {
+    background-color: #0b1329;
+    color: #ffffff;
+    border: none;
+    transform: scale(1.02);
+}
+
+.card-header {
+    margin-bottom: 30px;
+}
+
+
+
+.plan-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #64748b;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pricing-card.featured .plan-name {
+    color: #38bdf8;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1;
+}
+
+.pricing-card.featured .price {
+    color: #ffffff;
+}
 
 
 
