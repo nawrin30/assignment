@@ -368,6 +368,89 @@ body {
     color: #475569; 
 }
 
+.footer {
+    background-color: #ffffff;
+    padding: 60px 20px 40px;
+    border-top: 1px solid #e2e8f0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer .logo img {
+    height: 28px;
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+}
+
+.social-links a {
+    color: #64748b;
+    font-size: 15.2px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.social-links a:hover {
+    color: #2563eb;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #f1f5f9;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    color: #94a3b8;
+    font-size: 15.2px;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .nav-menu, .nav-btn {
+        display: none; 
+    }
+    
+    .hero-content h1 {
+        font-size: 48px;
+    }
+    
+    .speakers-grid {
+        grid-template-columns: 1fr; 
+    }
+    
+    .pricing-container {
+        flex-direction: column; 
+        gap: 30px;
+    }
+    
+    .pricing-card.featured {
+        transform: scale(1); 
+    }
+    
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    
+    .sponsors-logos {
+        gap: 30px;
+    }
+}
+
 
 
 
