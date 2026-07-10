@@ -218,6 +218,26 @@ body {
 }
 
 
+.speaker-info {
+    padding: 24px;
+}
+
+.track-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+
+.track-label.ai { color: #2563eb; }
+.track-label.devops { color: #059669; }
+.track-label.frontend { color: #d97706; }
+.track-label.security { color: #7c3aed; }
+
+
 
 
 
